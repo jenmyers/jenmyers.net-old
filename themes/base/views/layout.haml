@@ -1,0 +1,21 @@
+!!!
+%html{ :lang => "en", "xml:lang" => "en", :xmlns => 'http://www.w3.org/1999/xhtml' }
+  %head
+    %meta{ "http-equiv" => "content-type", "content" => "text/html; charset=utf-8" }
+    - if @description
+      %meta{ "name" => "description", "content" => @description }
+    - if @keywords
+      %meta{ "name" => "keywords", "content" => @keywords }
+    %title= @title
+    %link{ :href => "/base/css/#{page_design('screen')}.css", :rel => "stylesheet" }
+    %link{ :href => "http://fonts.googleapis.com/css?family=Quicksand:300,400,700", :rel => "stylesheet", :type => "text/css" }
+    %link{ :href => "http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic", :rel => "stylesheet", :type => "text/css" }
+    %script{ :type => "text/javascript", :src => "http://use.typekit.com/omn1lkj.js" }
+    %script{ :type => "text/javascript"} try{Typekit.load();}catch(e){}
+    %link{ :href => "/articles.xml", :rel => "alternate", :type => "application/atom+xml" }
+    = haml :analytics, :layout => false
+  %body
+    #wrapper
+      = haml :header, :layout => false
+      = yield
+      = haml :footer, :layout => false

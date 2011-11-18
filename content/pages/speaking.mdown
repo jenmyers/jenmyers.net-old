@@ -1,0 +1,21 @@
+Title: Jen Myers | Speaking
+Template: Page-alt
+
+#Speaking
+
+## Upcoming
+
+* [Software Craftsmanship North America](http://scna.softwarecraftsmanship.org)
+### 18-19 November 2011, Chicago IL
+Unlocking the Clubhouse: Developing Software Education and Practices for Diverse Beginners
+
+* [Codemash](http://wwww.codemash.org)
+### 11-13 January 2012, Sandusky OH
+Developers Can't Design (And Other Completely Untrue Design Myths)
+
+* [Code PaLOUsa](http://www.codepalousa.com)
+### 15-17 March, Louisville KY
+Developers Can't Design (And Other Completely Untrue Design Myths)
+
+Keep up on my conference schedule at [Lanyrd](http://lanyrd.com/profile/antiheroine/).
+

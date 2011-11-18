@@ -1,1 +1,9 @@
-%section.articles= article_summaries(latest_articles)
+Title: Jen Myers
+
+#content
+  - latest_articles(1).each do |article|
+    %article
+      %h1
+        %a.design(href="#{article.abspath}")= article.heading
+      ~ article.body
+    = haml :page_meta, :layout => false, :locals => { :page => article }

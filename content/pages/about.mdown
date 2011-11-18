@@ -1,0 +1,18 @@
+Title: Jen Myers | About
+Template: Page-alt
+
+#About
+
+I'm a web and application designer currently living in Columbus, Ohio. I also run the education program [Girl Develop It Columbus](http://www.girldevelopitcbus.com) and teach HTML/CSS to beginning students. I write and speak about topics related to design, front-end development, programming education and diversity in technology.
+
+I have a kid I like a lot. I also like good film, comic books and traveling.
+
+If you'd like to chat with me, I'm readily available on [Twitter](http://www.twitter.com/antiheroine) or by email at [hello@jenmyers.net](mailto:hello@jenmyers.net). I often have both in-person and virtual "office hours" when you can schedule a time to bend my ear - look for open times and sign up at [Ohours](http://ohours.org/jenmyers).
+
+##Elsewhere
+
+I keep a regular log of links, quotes, photos and videos at my [Tumblr](http://jenmyers.tumblr.com); I also keep my [Pinboard](http://pinboard.in/u:jenmyers/) page current with relevant links. I post updates on my personal web projects, design and development, at [Forrst](http://forrst.com/people/jenmyers), and most of the completed projects are available for code review at [Github](http://www.github.com/jenmyers).
+
+##Note
+
+If you're looking for my old website and writing, it's currently still at [Deliberatepixel.com](http://www.deliberatepixel.com) and I will archive it as-is for posterity. However, something new will come along soon to take up the Deliberatepixel mantle.

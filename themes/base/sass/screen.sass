@@ -1,0 +1,240 @@
+/* COMPASS IMPORTS */
+
+@import compass/reset
+@import compass/utilities/general/
+@import compass/css3/
+
+/* MIXINS */
+
+
+/* FONT INCLUDES */
+
++font-face("Chunkfive", font-files("Chunkfive-webfont.woff", woff, "Chunkfive-webfont.ttf", truetype, "Chunkfive-webfont.svg", svg), "Chunkfive-webfont.eot")
++font-face("Museo Slab", font-files("museo-slab-webfont.woff", woff, "museo-slab-webfont.ttf", truetype, "museo-slab-webfont.svg", svg), "museo-slab-webfont.eot")
+
+/* LAYOUT */
+
+body
+  //background: url("../images/bg-body02.png")
+  background-color: #e7e7de
+  color: #3c3c3c
+  font: 
+    family: "PT Serif", serif
+    size: 1em
+  line-height: 150%
+
+  #wrapper
+    //+box-shadow(#d1cdc1 0px 0px 10px)
+    margin: 0 auto 0 auto
+    width: 720px
+    header
+      nav
+        +clearfix
+        border-bottom: 2px solid #d2d2ca
+        font:
+          family: "Quicksand", sans-serif
+        margin: 0px 40px 0px 40px
+        padding: 20px 0 5px 0
+        width: 640px 
+        ul
+          float: left
+          li
+            display: inline
+            margin-right: 8px
+            text-transform: uppercase
+            a
+              border-bottom: none
+              color: #3c3c3c
+              padding: 3px
+            a:hover
+              +border-radius(2px)
+              +transition-duration(0.8s)
+              background-color: #f2f2ed
+              color: #000
+        .rss
+          float: right
+          margin-top: 5px
+          a
+            img
+              +opacity(0.5)
+            border-bottom: none
+          a:hover
+            img
+              +opacity(1)
+              +transition-duration(1.2s)
+      #categories
+        float: right
+        ul
+          padding-left: 10px
+          position: fixed
+          top: 10px
+          width: 140px
+          a
+            border-bottom: none
+            .popup
+              display: none
+          a:hover
+            .popup
+              +border-radius(3px)
+              background-color: #f2f2ed
+              color: #676763
+              display: block
+              font-family: "Quicksand", sans-serif
+              font-size: 75%
+              float: right
+              margin-top: 11px
+              padding: 3px
+              text-transform: uppercase
+
+    section
+      margin: 180px 40px 0px 40px
+
+    article
+      +clearfix
+      h1
+        font-family: "Adelle Basic", serif
+        font-size: 3.4em
+        line-height: 105%
+        margin-bottom: 10px
+        text-shadow: 2px 2px 1px #fff
+        a
+          border-bottom: none
+        a:hover
+          color: #3c3c3c
+      h2
+        color: #3c3c3c
+        font-size: 95%
+        letter-spacing: 1px
+        margin-bottom: 10px
+        margin-top: 40px
+      .lede
+        border-bottom: 1px solid #d2d2ca
+        border-top: 1px solid #d2d2ca
+        font:
+          size: 120%
+          style: italic
+        line-height: 140%
+        margin-bottom: 20px
+        padding-bottom: 10px
+        padding-top: 10px
+        img
+          float: left
+          margin-right: 10px
+      .meta
+        border-bottom: 1px solid #d2d2ca
+        border-top: 1px solid #d2d2ca
+        font-family: "PT Sans", sans-serif
+        line-height: 140%
+        margin-bottom: 40px
+        padding-bottom: 10px
+        padding-top: 10px
+      ul
+        margin-top: 20px
+      li
+        margin: 0 0 20px 20px
+      .about
+        border: 2px solid #e0e0d8
+        float: right
+        margin-left: 20px
+      .alt
+        li
+          +border-radius(3px)
+          background-color: #f2f2ed
+          margin-left: 0
+          padding: 5px 20px 5px 20px
+          a
+            border-bottom: none
+            font-size: 140%
+          a:hover
+            color: #10a5b2
+
+    aside
+      +border-radius(3px)
+      +clearfix
+      background-color: #ddddd5
+      padding: 20px
+      p
+        font:
+          family: "PT Sans", serif
+        line-height: 150%
+        margin: 0 0 12px 0
+      img
+        border: 2px solid #d2d2ca
+        float: left
+        margin-right: 20px
+        padding: 2px
+      a
+        img
+          +opacity(0.4)
+      a.arrow
+        border-bottom: none
+      a:hover
+        img
+          +opacity(1)
+          +transition-duration(1.2s)
+      li img
+        border: none
+
+    footer
+      +clearfix
+      border-top: 1px solid #d2d2ca
+      color: #3c3c3c
+      line-height: 140%
+      font:
+        family: "Quicksand", sans-serif
+        size: 80%
+      margin: 80px 40px 0px 40px
+      text-transform: uppercase
+
+/* TYPOGRAPHY */
+
+strong
+  font-weight: 700
+
+p
+  margin: 20px 0
+
+h2
+  font:
+    family: "PT Sans", sans-serif
+    size: 1.2em
+    weight: bold
+  text-transform: uppercase
+  
+h3
+  border-bottom: 1px solid #d2d2ca
+  border-top: 1px solid #d2d2ca
+  font:
+    family: "PT Sans", sans-serif
+    size: 90%
+  text-transform: uppercase
+
+.design
+  color: #10a5b2
+.coding
+  color: #a5b210
+.culture
+  color: #ed357a
+.philosophy
+  color: #d46013
+
+/* ANCHORS */ 
+
+a
+  border-bottom: 1px solid #b2b2a3
+  color: #000
+  text-decoration: none
+
+a:hover
+  border-bottom: 1px solid #fff
+  color: #10a5b2
+
+span a
+  +opacity(0.3)
+
+span a:hover
+  +opacity(1)
+  +transition-duration(1.2s)
+  
+footer a
+  font-weight: bold

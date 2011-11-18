@@ -1,0 +1,21 @@
+Design: design
+Date: 16 Nov 2011
+Categories: design
+Summary: Launching the new version of my personal website: what's the same, what's different and what's ahead.
+Title: Jen Myers | Beginning again
+
+# Beginning again
+
+<p class="lede">Launching the new version of my personal website: what's the same, what's different and what's ahead.</p>
+
+In 2005, I bought my first [domain](http://www.deliberatepixel.com/) and started writing in earnest on the internet. Deliberatepixel, which, at the time, was just a combination of words that created an URL no one else had taken, became something like a brand for me. That was fun while it lasted, but it's time to move on.
+
+At the risk of engaging in smarmy marketing speak by describing this move as a "rebranding", it is true I'm changing what I share and how I represent myself online. I've tied my primary sites, profiles, etc. to my name rather than Deliberatepixel and I will no longer be posting at that domain as I used to. That isn't to say Deliberatepixel is entirely dead - it's just temporarily in suspended animation, waiting patiently to be reborn into a new purpose.
+
+Now, I'm here, and here is where I'll be writing my typical long-form articles, the focus of which will shift slightly to reflect my recent rededication to design and development work. I will probably still rant from time to time about film, however. I don't think it's possible for me to have an internet outlet that won't be infiltrated, from time to time, by film.
+
+I also tackled new technical ground with this new site. It runs on [Nesta](http://www.nestacms.com), a Ruby-based application that is unlike any system my delicate designer hands had attempted to reign in before and which presented not a few challenges to me. I think I managed to wrangle most of them. It's all bit of a work-in-progress, however, as you can see in the source and task list at [Github](#).
+
+Eventually, I might even get the site itself done to my liking and be able to produce some significant content. Stranger things have happened.
+
+In the meantime, you can reach me in all the usual ways, including [Twitter](http://www.twitter.com/antiheroine) and [Tumblr](http://jenmyers.tumblr.com), and I'll be out and about over the next few months at [speaking](http://jenmyers.net/speaking) events. Say hi, start a conversation.
