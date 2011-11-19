@@ -1,5 +1,5 @@
 Title: Jen Myers | About
-Template: Page-alt
+Template: page-alt
 
 #About
 
