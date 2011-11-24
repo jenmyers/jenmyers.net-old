@@ -19,7 +19,7 @@ body
   //background-color: #ecefe4
   color: #3c3c3c
   font: 
-    family: "museo-sans", sans-serif
+    family: "Museo Sans", sans-serif
     size: 1em
   line-height: 150%
 
@@ -29,9 +29,10 @@ body
     header
       nav
         +clearfix
-        border-bottom: 2px solid #d2d2ca
+        //border-bottom: 2px solid #d2d2ca
         font:
           family: "Quicksand", sans-serif
+          size: 90%
         margin: 0px 40px 0px 40px
         padding: 20px 0 5px 0
         width: 640px 
@@ -39,16 +40,13 @@ body
           float: left
           li
             display: inline
-            margin-right: 8px
+            margin-right: 12px
             text-transform: uppercase
             a
               border-bottom: none
-              color: #3c3c3c
-              padding: 3px
+              color: #444
             a:hover
-              +border-radius(2px)
-              +transition-duration(0.8s)
-              background-color: #f2f2ed
+              border-bottom: 2px solid #d2d2ca
               color: #000
         .rss
           float: right
@@ -64,7 +62,6 @@ body
       #categories
         float: right
         ul
-          padding-left: 10px
           position: fixed
           top: 10px
           width: 140px
@@ -75,8 +72,8 @@ body
           a:hover
             .popup
               +border-radius(3px)
-              background-color: #f2f2ed
-              color: #676763
+              background-color: #ecece4
+              color: #3c3c3c
               display: block
               font-family: "Quicksand", sans-serif
               font-size: 75%
@@ -86,14 +83,17 @@ body
               text-transform: uppercase
 
     section
-      margin: 160px 40px 0px 40px
+      +border-radius(5px)
+      background-color: #ecece4
+      margin: 180px 40px 0px 40px
+      padding: 40px
 
     article
       +clearfix
       h1
         font:
           family: "Museo Slab", serif
-          size: 3.8em
+          size: 3.6em
           weight: bold
         letter-spacing: -0.05em
         line-height: 110%
@@ -101,6 +101,7 @@ body
         text-shadow: 1px 1px 1px #fff
         a
           border-bottom: none
+          color: #3c3c3c
         a:hover
           color: #000
       h2
@@ -123,13 +124,14 @@ body
           float: left
           margin-right: 10px
       .meta
-        border-bottom: 1px solid #d2d2ca
-        border-top: 1px solid #d2d2ca
-        font-family: "PT Sans", sans-serif
+        border-bottom: 1px solid #e7e7de
+        border-top: 1px solid #e7e7de
+        color: #999
+        font-size: 90%
         line-height: 140%
-        margin-bottom: 40px
-        padding-bottom: 10px
-        padding-top: 10px
+        text-transform: uppercase
+        time
+          color: #666
       ul
         margin-top: 20px
       li
@@ -153,31 +155,34 @@ body
             color: #10a5b2
 
     aside
-      +border-radius(3px)
       +clearfix
-      background-color: #ddddd5
-      padding: 20px
       p
-        font:
-          family: "PT Sans", serif
-        line-height: 150%
+        line-height: 140%
         margin: 0 0 12px 0
-      img
-        border: 2px solid #d2d2ca
+      a
+        border-bottom: none
+      a.jen
+        background:
+          image: url("/base/images/jen-sprite.png")
+          position: 0px 0px
+        border: 5px solid #d2d2ca
+        height: 120px
         float: left
         margin-right: 20px
-        padding: 2px
-      a
+        width: 120px
+      a.jen:hover
+        background-position: 0px -120px
+      a.dot
         img
           +opacity(0.4)
-      a.arrow
-        border-bottom: none
-      a:hover
+      a:hover.dot
         img
           +opacity(1)
           +transition-duration(1.2s)
       li img
         border: none
+        float: left
+        margin-right: 15px
 
     footer
       +clearfix
@@ -225,13 +230,13 @@ h3
 /* ANCHORS */ 
 
 a
-  border-bottom: 1px solid #b2b2a3
-  color: #000
+  border-bottom: 2px solid #d2d2ca
+  color: #444
   text-decoration: none
 
 a:hover
-  border-bottom: 1px solid #fff
-  color: #10a5b2
+  border-bottom: 2px solid #999
+  color: #000
 
 span a
   +opacity(0.3)

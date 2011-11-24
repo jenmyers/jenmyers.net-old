@@ -1,5 +1,6 @@
 %aside
-  %img(src="/base/images/jen.jpg" alt="Jen Myers, Millionaire Playgirl" height="120" width="120")
+  /%img(src="/base/images/jen.jpg" alt="Jen Myers, Millionaire Playgirl" height="120" width="120")
+  %a.jen
   
   %p
     %strong Jen Myers
@@ -11,25 +12,25 @@
     = succeed ', and' do
       %a.culture{ :href => "/culture" } culture
     = succeed '.' do
-      %a.philosophy{:href=>"/philosophy"} philosophy
-    %a.arrow{:href=>"/about"} &#8594;
+      %a.philosophy{ :href => "/philosophy" } philosophy
+    %a{ :href => "/about" } &#8594;
   
   %ul
     %li
-      %a{ :href => "http://www.twitter.com/antiheroine" }
+      %a.dot{ :href => "http://www.twitter.com/antiheroine" }
         %img(src="/base/images/twitter.png" alt="Twitter")
     %li
-      %a{ :href => "http://jenmyers.tumblr.com" }
+      %a.dot{ :href => "http://jenmyers.tumblr.com" }
         %img(src="/base/images/tumblr.png" alt="Tumblr")
     %li
-      %a{ :href => "http://www.github.com/jenmyers" }
+      %a.dot{ :href => "http://www.github.com/jenmyers" }
         %img(src="/base/images/github.png" alt="Github")
     %li
-      %a{ :href => "http://forrst.com/people/jenmyers" }
+      %a.dot{ :href => "http://forrst.com/people/jenmyers" }
         %img(src="/base/images/forrst.png" alt="Forrst")
     %li
-      %a{ :href => "http://pinboard.in/u:jenmyers/" }
+      %a.dot{ :href => "http://pinboard.in/u:jenmyers/" }
         %img(src="/base/images/pinboard.png" alt="Pinboard")
     %li
-      %a{ :href => "http://feeds.feedburner.com/jenmyers" }
+      %a.dot{ :href => "http://feeds.feedburner.com/jenmyers" }
         %img(src="/base/images/rss.png" alt="RSS")
