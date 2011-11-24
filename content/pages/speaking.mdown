@@ -6,21 +6,21 @@ Template: page-alt
 ## Upcoming
 
 * ### [Codemash &#8594;](http://wwww.codemash.org)
-#### 11-13 January 2012, Sandusky OH
-Developers Can't Design (And Other Completely Untrue Design Myths)
+##### 11-13 January 2012, Sandusky OH
+#### Developers Can't Design (And Other Completely Untrue Design Myths)
 
 * ### [Web Heroines Emerge Mini-Conference &#8594;](http://www.webheroines.com/emerge/)
-#### 16-18 January 2010, Online and London
-CSS Frameworks: Sass and Compass online workshop
+##### 16-18 January 2010, Online and London
+#### CSS Frameworks: Sass and Compass online workshop
 
 * ### [Code PaLOUsa &#8594;](http://www.codepalousa.com)
-#### 15-17 March, Louisville KY
-Developers Can't Design (And Other Completely Untrue Design Myths)
+##### 15-17 March, Louisville KY
+#### Developers Can't Design (And Other Completely Untrue Design Myths)
 
 ## Past
 
 * ### [Software Craftsmanship North America &#8594;](http://scna.softwarecraftsmanship.org)
-#### 18-19 November 2011, Chicago IL
-[Unlocking the Clubhouse: Developing Software Education and Practices for Diverse Beginners &#8594;](http://www.slideshare.net/antiheroine/unlocking-the-clubhouse-developing-software-education-and-practices-for-diverse-beginners)
+##### 18-19 November 2011, Chicago IL
+#### [Unlocking the Clubhouse: Developing Software Education and Practices for Diverse Beginners &#8594;](http://www.slideshare.net/antiheroine/unlocking-the-clubhouse-developing-software-education-and-practices-for-diverse-beginners)
 
 Keep up on my conference schedule at [Lanyrd](http://lanyrd.com/profile/antiheroine/).
