@@ -3,7 +3,7 @@ Template: page-alt
 
 #About
 
-I'm a web and application designer currently living in Columbus, Ohio. I also run the education program [Girl Develop It Columbus](http://www.girldevelopitcbus.com) and teach HTML/CSS to beginning students. I write and speak about topics related to design, front-end development, programming education and diversity in technology.
+I'm a web and application designer currently living in Columbus, Ohio and working with [Relevance](http://www.thinkrelevance.com). I also run the education program [Girl Develop It Columbus](http://www.girldevelopitcbus.com) and teach HTML/CSS to beginning students. I write and speak about topics related to design, front-end development, programming education and diversity in technology.
 
 I have a kid I like a lot. I also like good film, comic books and traveling.
 
