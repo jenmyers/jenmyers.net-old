@@ -11,7 +11,7 @@ Template: page-alt
 
 * ### [Web Heroines Emerge Mini-Conference &#8594;](http://www.webheroines.com/emerge/)
 ##### 16-18 January 2010, Online and London
-#### CSS Frameworks: Sass and Compass online workshop
+#### CSS Frameworks: Getting to Know Sass and Compass online workshop
 
 * ### [Code PaLOUsa &#8594;](http://www.codepalousa.com)
 ##### 15-17 March, Louisville KY
