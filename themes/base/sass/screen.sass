@@ -10,9 +10,9 @@ body
   background-color: #e7e7de
   color: #3c3c3c
   font: 
-    family: "museo-sans", sans-serif
+    family: "proxima-nova", sans-serif
     size: 1em
-  line-height: 140%
+  line-height: 150%
 
   #wrapper
     margin: 0 auto 0 auto
@@ -20,8 +20,10 @@ body
     header
       nav
         +clearfix
+        border-bottom: 1px solid #d2d2ca
         font:
           family: "Quicksand", sans-serif
+          size: 95%
         margin: 0px 40px 0px 40px
         padding: 20px 0 5px 0
         width: 640px 
@@ -84,11 +86,11 @@ body
       h1
         font:
           family: "museo-slab", serif
-          size: 3.6em
+          size: 3.8em
           weight: bold
         letter-spacing: -0.05em
         line-height: 110%
-        margin-bottom: 10px
+        margin-bottom: 30px
         text-shadow: 1px 1px 1px #fff
         a
           border-bottom: none
@@ -96,31 +98,12 @@ body
         a:hover
           color: #000
       h2
-        color: #3c3c3c
-        font-size: 95%
-        letter-spacing: 1px
-        margin-bottom: 10px
-        margin-top: 40px
-      .lede
-        border-bottom: 1px solid #d2d2ca
-        border-top: 1px solid #d2d2ca
-        font:
-          size: 120%
-          style: italic
-        line-height: 140%
-        margin-bottom: 20px
-        padding-bottom: 10px
-        padding-top: 10px
-        img
-          float: left
-          margin-right: 10px
+        color: #666
+        font-size: 160%
+        margin-top: 50px
       .meta
-        border-bottom: 1px solid #e7e7de
-        border-top: 1px solid #e7e7de
         color: #999
-        font-family: "Quicksand", sans-serif
-        line-height: 140%
-        text-transform: uppercase
+        font-family: "museo-slab", serif
         time
           color: #666
       ul
@@ -133,10 +116,9 @@ body
         margin-left: 20px
       .alt
         li
-          border-bottom: 2px solid #d2d2ca
-          border-top: 1px solid #d2d2ca
+          border-bottom: 1px solid #d2d2ca
           margin-bottom: 20px
-          margin-top: 40px
+          margin-top: 20px
           padding-bottom: 20px
           padding-top: 20px
           margin-left: 0
@@ -145,10 +127,13 @@ body
 
     aside
       +clearfix
+      border-top: 1px solid #d2d2ca
       margin-top: 40px
+      padding-top: 20px
       p
-        font-size: 90%
-        line-height: 140%
+        color: #676763
+        font-weight: 300
+        line-height: 130%
         margin: 0
         padding: 0
       a
@@ -157,7 +142,7 @@ body
         background:
           image: url("/base/images/jen-sprite.png")
           position: 0px 0px
-        border: 5px solid #d2d2ca
+        border: 6px solid #e7e7de
         height: 110px
         float: left
         margin-right: 20px
@@ -188,8 +173,9 @@ body
       line-height: 140%
       font:
         family: "Quicksand", sans-serif
-        size: 75%
+        size: 70%
       margin: 80px 40px 0px 40px
+      text-align: center
       text-transform: uppercase
       a
         border-bottom: none
@@ -203,15 +189,10 @@ strong
 p
   margin: 20px 0
 
-h2
-  font:
-    size: 1.2em
-    weight: bold
-  text-transform: uppercase
-
 h3
-  font-size: 1.4em
-  margin-bottom: 5px
+  font-family: "museo-slab"
+  font-size: 130%
+  margin-bottom: 10px
 
 h4
   font-size: 100%
@@ -236,7 +217,7 @@ h5
 
 a
   border-bottom: 2px solid #d2d2ca
-  color: #444
+  color: #000
   text-decoration: none
 
 a:hover

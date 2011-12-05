@@ -21,6 +21,6 @@ Template: page-alt
 
 * ### [Software Craftsmanship North America &#8594;](http://scna.softwarecraftsmanship.org)
 ##### 18-19 November 2011, Chicago IL
-#### [Unlocking the Clubhouse: Developing Software Education and Practices for Diverse Beginners &#8594;](http://www.slideshare.net/antiheroine/unlocking-the-clubhouse-developing-software-education-and-practices-for-diverse-beginners)
+#### [Unlocking the Clubhouse: Developing Software Education and Practices for Diverse Beginners &#8594;](http://speakerdeck.com/u/jenmyers/p/unlocking-the-clubhouse-developing-software-education-and-practices-for-diverse-beginners)
 
 Keep up on my conference schedule at [Lanyrd](http://lanyrd.com/profile/antiheroine/).
