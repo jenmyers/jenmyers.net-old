@@ -9,6 +9,10 @@ Template: page-alt
 ##### 15-17 March, Louisville KY
 #### Developers Can't Design (And Other Completely Untrue Design Myths)
 
+* ### [Stir Trek &#8594;](http://www.stirtrek.com)
+##### 4 May, Columbus, OH
+#### Developers Can't Design (And Other Completely Untrue Design Myths)
+
 ## Past
 
 * ### [Web Heroines Emerge Mini-Conference &#8594;](http://www.webheroines.com/emerge/)

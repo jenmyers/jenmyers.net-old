@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'nesta', '0.9.10'
+gem 'nesta', '0.9.13'
 
 
 

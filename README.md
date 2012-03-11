@@ -8,7 +8,7 @@ My personal website, publicly available for review and feedback as I make it bet
 
 * Info on my work, speaking events and background.
 
-* Powered by Ruby CMS [Nesta](http://www.nestacms.com). My first attempt in keeping my weblog not only in a static site generator but a Ruby app.
+* Powered by Ruby CMS [Nesta](http://www.nestacms.com). My first attempt in keeping my weblog not only in a Ruby app.
 
 * Hosted on [Heroku](http://www.heroku.com).
 
