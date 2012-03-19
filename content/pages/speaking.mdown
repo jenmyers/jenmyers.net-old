@@ -5,8 +5,8 @@ Template: page-alt
 
 ## Upcoming
 
-* ### [Code PaLOUsa &#8594;](http://www.codepalousa.com)
-##### 15-17 March, Louisville KY
+* ### [Kalamazoo X &#8594;](http://kalamazoox.org/)
+##### 21 April, Kalamazoo, MI
 #### Developers Can't Design (And Other Completely Untrue Design Myths)
 
 * ### [Stir Trek &#8594;](http://www.stirtrek.com)
@@ -14,6 +14,10 @@ Template: page-alt
 #### Developers Can't Design (And Other Completely Untrue Design Myths)
 
 ## Past
+
+* ### [Code PaLOUsa &#8594;](http://www.codepalousa.com)
+##### 15-17 March, Louisville KY
+#### Developers Can't Design (And Other Completely Untrue Design Myths)
 
 * ### [Web Heroines Emerge Mini-Conference &#8594;](http://www.webheroines.com/emerge/)
 ##### 16-18 January 2010, Online and London

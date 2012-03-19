@@ -1,3 +1,7 @@
+# Compass configuration
+
+require 'ninesixty'
+
 # HTTP paths
 http_path             = '/'
 http_stylesheets_path = '/base/css'
@@ -10,13 +14,14 @@ css_dir               = "themes/base/public/base/css"
 images_dir            = "themes/base/public/base/images"
 javascripts_dir       = "themes/base/public/base/javascripts"
 
-# You can select your preferred output style here (can be overridden via the command line):
-output_style = :compressed
+# CSS output style - :nested, :expanded, :compact, or :compressed
+output_style          = :compressed
 
-# To enable relative paths to assets via compass helper functions. Uncomment:
-relative_assets = true
+# Determine whether Compass asset helper functions generate relative or absolute paths
+relative_assets       = true
 
-# To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+# Set to true for easier debugging
+line_comments         = false
 
-preferred_syntax = :sass
+# Set preferred syntax
+preferred_syntax      = :sass

@@ -18,10 +18,10 @@ My personal website, publicly available for review and feedback as I make it bet
 
 I have quite a few things to improve here.
 
-* Style error page.
-
-* Fix/style category listings.
-
-* Implement responsive views
+* Refresh design, which entails:
+  * Implementing grid system
+  * Fixing/styling category listings
+  * Implementing responsive views
+  * Styling error page
 
 * Add work portfolio content.

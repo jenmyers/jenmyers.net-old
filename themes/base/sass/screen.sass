@@ -3,11 +3,12 @@
 @import compass/reset
 @import compass/utilities/general/
 @import compass/css3/
+@import 960/grid
 
 /* LAYOUT */
 
 body
-  background-color: #e7e7de
+  background-image: url("/base/images/bg-body.png")
   color: #3c3c3c
   font: 
     family: "proxima-nova", sans-serif
@@ -64,7 +65,7 @@ body
           a:hover
             .popup
               +border-radius(3px)
-              background-color: #ecece4
+              background-color: #f2f2ef
               color: #3c3c3c
               display: block
               font-family: "Quicksand", sans-serif
@@ -76,7 +77,8 @@ body
 
     section
       +border-radius(5px)
-      background-color: #ecece4
+      +box-shadow(#d8d9d4 1px 1px 1px)
+      background-color: #f2f2ef
       margin: 20px 40px 0px 40px
       padding: 40px
 
