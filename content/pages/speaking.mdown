@@ -7,11 +7,12 @@ Template: page-alt
 
 * ### [Kalamazoo X &#8594;](http://kalamazoox.org/)
 ##### 21 April, Kalamazoo, MI
-#### Developers Can't Design (And Other Completely Untrue Design Myths)
 
 * ### [Stir Trek &#8594;](http://www.stirtrek.com)
 ##### 4 May, Columbus, OH
-#### Developers Can't Design (And Other Completely Untrue Design Myths)
+
+* ### [QC Merge &#8594;](http://qcmerge.com/)
+##### 10 May, Cincinnati, OH
 
 ## Past
 
