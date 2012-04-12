@@ -1,97 +1,88 @@
-/* COMPASS IMPORTS */
+/* Imports -------------------------------------------------------------------
 
 @import compass/reset
 @import compass/utilities/general/
 @import compass/css3/
+@import base
 
-/* LAYOUT */
+/* Layout ------------------------------------------------------------------
 
 body
-  background-image: url("/base/images/bg-body.png")
+  background: #e7e7de
   color: #3c3c3c
   font: 
     family: "proxima-nova", sans-serif
     size: 1em
+    weight: 300
   line-height: 150%
-
-  #wrapper
-    margin: 0 auto 0 auto
-    width: 720px
+  margin-bottom: 40px
+  
+  .container
+    +container
+    
+    .categories
+      +columns(2)
+      +prefix(10)
+      float: right
+      ul
+        position: fixed
+        top: 25px
+      li
+        text-align: left
+        a
+          border-bottom: none
+          .popup
+            display: none
+        a:hover
+          .popup
+            +border-radius(3px)
+            background-color: #f2f2ef
+            color: #3c3c3c
+            display: block
+            font-family: "Quicksand", sans-serif
+            font-size: 65%
+            float: right
+            margin-top: 11px
+            padding: 3px
+            text-transform: uppercase
+    
     header
+      +columns(8)
+      +pad(2,2)
+      +alpha
+      margin-top: 30px
+      text-transform: uppercase
+      .title
+        float: left
       nav
-        +clearfix
-        font:
-          family: "Quicksand", sans-serif
-          size: 95%
-        margin: 0px 40px 0px 40px
-        padding: 20px 0 5px 0
-        width: 640px 
         ul
-          float: left
+          float: right
           li
             display: inline
-            margin-right: 12px
-            text-transform: uppercase
+            margin-left: 8px
             a
               border-bottom: none
               color: #9A9A95
             a:hover
               border-bottom: 2px solid #d2d2ca
               color: #111
-        .rss
-          float: right
-          margin-top: 5px
-          a
-            img
-              +opacity(0.5)
-            border-bottom: none
-          a:hover
-            img
-              +opacity(1)
-              +transition-duration(1.2s)
-      #categories
-        float: right
-        ul
-          position: fixed
-          top: 10px
-          width: 140px
-        li
-          text-align: left
-          a
-            border-bottom: none
-            .popup
-              display: none
-          a:hover
-            .popup
-              +border-radius(3px)
-              background-color: #f2f2ef
-              color: #3c3c3c
-              display: block
-              font-family: "Quicksand", sans-serif
-              font-size: 75%
-              float: right
-              margin-top: 11px
-              padding: 3px
-              text-transform: uppercase
 
     section
-      +border-radius(5px)
-      +box-shadow(#d8d9d4 1px 1px 1px)
-      background-color: #f2f2ef
-      margin: 20px 40px 0px 40px
-      padding: 40px
+      +columns(8)
+      +pad(2,2)
+      +alpha
+      margin-top: 200px
 
     article
-      +clearfix
       h1
         font:
-          family: "museo-slab", serif
-          size: 3.8em
-          weight: bold
-        letter-spacing: -0.05em
+          family: "arvo"
+          size: 3.2em
+          weight: 700
+        letter-spacing: -2px
         line-height: 110%
         margin-bottom: 30px
-        text-shadow: 1px 1px 1px #fff
+        text-shadow: 1px 1px 2px #fff
         a
           border-bottom: none
           color: #3c3c3c
@@ -103,7 +94,7 @@ body
         margin-top: 50px
       .meta
         color: #999
-        font-family: "museo-slab", serif
+        font-family: "adelle", serif
         time
           color: #666
       ul
@@ -168,18 +159,25 @@ body
 
     footer
       +clearfix
-      border-top: 1px solid #d2d2ca
-      color: #3c3c3c
-      line-height: 140%
-      font:
-        family: "Quicksand", sans-serif
-        size: 70%
-      margin: 80px 40px 0px 40px
-      text-align: center
-      text-transform: uppercase
-      a
-        border-bottom: none
-        font-weight: bold
+      +columns(8)
+      +pad(2,2)
+      +alpha
+      text-align: right
+      a.dot
+        img
+          +opacity(0.4)
+      a:hover.dot
+        img
+          +opacity(1)
+          +transition-duration(1.2s)
+      ul
+        margin-top: 0
+        padding-top: 0
+        li img
+          border: none
+          float: right
+          margin: 0 0 0 20px
+          padding: 0
 
 /* TYPOGRAPHY */
 
@@ -225,7 +223,7 @@ a:hover
   color: #000
 
 span a
-  +opacity(0.3)
+  +opacity(0.5)
 
 span a:hover
   +opacity(1)

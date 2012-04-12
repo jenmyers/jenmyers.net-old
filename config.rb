@@ -1,5 +1,7 @@
 # Compass configuration
 
+require 'susy'
+
 # HTTP paths
 http_path             = '/'
 http_stylesheets_path = '/base/css'

@@ -1,9 +1,8 @@
 %header
+  .title
+    %a{ :href => "/", :title => "Go back to the front page" } Jen Myers
   %nav
     %ul
-      %li
-        %strong
-          %a{ :href => "/", :title => "Go back to the front page" } Jen Myers
       %li 
         %a{ :href => "/articles", :title => "Browse all articles" } Articles
       %li
@@ -14,28 +13,26 @@
         %a{ :href => "/about", :title => "Read more about me" } About
       %li
         %a{ :href => "http://jenmyers.tumblr.com", :title => "Visit my short-form weblog" } Tumblr
-    .rss
-      %a{ :href => "http://feeds.feedburner.com/jenmyers", :title => "Subscribe to the RSS feed" }
-        %img(src="/base/images/rss-top.png" alt="RSS")
-  #categories
-    %ul
-      %li
-        %span
-          %a{ :href => "/design", :title => "Articles on design" }
-            %img(src="/base/images/dot-design.png" alt="Design")
-            .popup Design
-      %li
-        %span
-          %a{ :href => "/coding", :title => "Articles on coding" }
-            %img(src="/base/images/dot-coding.png" alt="Coding")
-            .popup Coding
-      %li
-        %span
-          %a{ :href => "/culture", :title => "Articles on culture" }
-            %img(src="/base/images/dot-culture.png" alt="Culture")
-            .popup Culture
-      %li
-        %span
-          %a{ :href => "/philosophy", :title => "Articles on philosophy" }
-            %img(src="/base/images/dot-philosophy.png" alt="Philosophy")
-            .popup Philosophy
+
+.categories
+  %ul
+    %li
+      %span
+        %a{ :href => "/design", :title => "Articles on design" }
+          %img(src="/base/images/dot-design.png" alt="Design")
+          .popup Design
+    %li
+      %span
+        %a{ :href => "/coding", :title => "Articles on coding" }
+          %img(src="/base/images/dot-coding.png" alt="Coding")
+          .popup Coding
+    %li
+      %span
+        %a{ :href => "/culture", :title => "Articles on culture" }
+          %img(src="/base/images/dot-culture.png" alt="Culture")
+          .popup Culture
+    %li
+      %span
+        %a{ :href => "/philosophy", :title => "Articles on philosophy" }
+          %img(src="/base/images/dot-philosophy.png" alt="Philosophy")
+          .popup Philosophy
